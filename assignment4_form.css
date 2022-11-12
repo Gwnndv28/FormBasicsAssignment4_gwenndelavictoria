@@ -1,0 +1,95 @@
+.section1
+{
+text-align: center;
+width: auto;
+height: 25px; 
+font-family: 'Snell Roundhand', cursive;
+color:#7788ddea;
+}
+
+h2
+{
+    text-align: center;
+}
+
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgba(221, 227, 138, 0.393);
+text-align: justify;
+border: 1px solid rgb(0, 0, 0);
+padding: 20px;
+margin: 20px;
+
+}
+
+.checkbox 
+{
+    text-align: justify;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+}
+
+.radio1
+{
+    text-align: justify;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+}
+
+.course
+{
+    text-align: justify;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+
+}
+
+h3
+
+{
+background-color: rgba(215, 181, 11, 0.475);
+text-align: justify;
+}
+
+.outline
+{
+    text-align: justify;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.link
+{
+
+
+    text-align: center;
+}
+
+.comments
+{
+    text-align: justify;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+.question9
+{
+
+    text-align: justify;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+

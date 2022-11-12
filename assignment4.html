@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> FORM BASICS </title>
+<link href="assignment4_form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<header>  
+
+<center>   <img src="Cenlogo.jpg" alt="banner" usemap="#Centennial Logo" > </center>
+<map name="Centennial Logo" id="Centennial Logo">
+<area shape="rect"  coords="1,1,576,185" href="https://www.centennialcollege.ca/?utm_source=hsm&utm_medium=search&utm_campaign=alwayson&gclid=Cj0KCQiA37KbBhDgARIsAIzce16d-6XzQVwXKLGT-ymBhJycz6S9Ti7W9U9f8q3jox8DyCCoWjr0ZB0aAjxQEALw_wcB&gclsrc=aw.ds" target="blank" >
+</map>
+<h2 class="section1"> Gwenn dela Victoria Form Assignment4 Section11</h2>
+<h2> Continuing Education/Instructor Evaluation </h2>
+
+</header>
+<main>
+<br>
+  Please read each statement carefully and consider each one individually. Please give only <b> one answer for each question </b>  </p>
+
+<!---THIS IS COMMENT ( MAIN CONTENT HERE) ---> 
+<h3> Profile </h3>
+<div class="outline">
+
+<br>
+<label  for="Name of the Professor">Name of the Professor</label>
+<select 
+ name="Name of the Professor" id="Professor">
+<option style="display:none">
+  <option value="Professor Mr. Bean"> Professor Mr. Bean </option>
+  <option value="Professor Mickey Mouse"> Professor Mickey Mouse</option>
+  <option value="Professor Winnie the Pooh">Professor Winnie the Pooh</option>
+  <option value="Professor James Bond"> Professor James Bond<t/option>
+</select>
+
+<label for="Course Name/Code">  Course Name/Code</label>
+<input type="text" name="Course Code"
+id="CourseCode"
+
+<label for="School Year"> School Year</label>
+<select name="School Year" id="School Year">
+<option style="display:none">
+  <option value="2022"> 2022 </option>
+  <option value="2021"> 2021 </option>
+  <option value="2020"> 2020 </option>
+  <option value="2019"> 2019<t/option>
+</select>
+
+<br>
+</div>
+
+  <h3>Semester</h3>
+
+  <forms>
+    <div class="checkbox">
+    <input type="checkbox" id="fall" name="what_sem" value="1">
+    <label for="Fall">Fall</label><br>
+    <input type="checkbox" id="winter" name="what_sem" value="2">
+    <label for="Winter"> Winter </label> <br>
+    <input type="checkbox" id="Spring/Summer" name="what_sem" value="3">
+    <label for="Spring/Summer"> Spring or Summer </label> <br>
+  </div>
+  </form>
+<!--Create radio button -->
+  
+<h3> Instructor Ratings </h3>
+
+<form> 
+    <div class="radio1">
+    <h4 style="text-align:center"> How would you rate the instructor's</h4>
+     <b> 1. Knowledge </b> of the subject? <br>
+    <input type="radio" id="Knowledge" name="rate">
+    <label for="first"> (a) Very Impressive 10/10  </label>
+    <input type="radio" id="good" name="rate" >
+    <label for="good"> (b) Good </label> 
+    <input type="radio" id="fair" name="rate" >
+    <label for="fair"> (c) meeh I'ts alright </label> 
+    <input type="radio" id="NS" name="rate" >
+    <label for="NS"> (c) Not Satisfied </label>  <br>
+
+    <br> <b> 2. Helpfulness? </b> <br>
+    <input type="radio" id="Helpfulness" name="rateH" >
+    <label for="first"> (a) Very Impressive 10/10  </label>
+    <input type="radio" id="good" name="rateH" >
+    <label for="good"> (b) Good </label> 
+    <input type="radio" id="fair" name="rateH" >
+    <label for="fair"> (c) meeh I'ts alright </label> 
+    <input type="radio" id="NS" name="rateH" >
+    <label for="NS"> (c) Not Satisfied </label> <br>
+
+    <br> <b> 3. Courtesy and Respect? </b> for all students? <br>
+    <input type="radio" id="Respects" name="rateR" >
+    <label for="first"> (a) Very Impressive 10/10  </label>
+    <input type="radio" id="good" name="rateR" >
+    <label for="good"> (b) Good </label> 
+    <input type="radio" id="fair" name="rateR" >
+    <label for="fair"> (c) meeh I'ts alright </label> 
+    <input type="radio" id="NS" name="rateR" >
+    <label for="NS"> (c) Not Satisfied </label> <br>
+
+    <br> <b> 4. Communication </b> skills? <br>
+    <input type="radio" id="Communication" name="rateC" >
+    <label for="first"> (a) Very Impressive 10/10  </label>
+    <input type="radio" id="good" name="rateC" >
+    <label for="good"> (b) Good </label> 
+    <input type="radio" id="fair" name="rateC" >
+    <label for="fair"> (c) meeh I'ts alright </label> 
+    <input type="radio" id="NS" name="rateC" >
+    <label for="NS"> (c) Not Satisfied </label><br>
+
+    <br> <b> 5. Performance </b> skills? <br>
+    <input type="radio" id="Performance" name="rateP" >
+    <label for="first"> (a) Very Impressive 10/10  </label>
+    <input type="radio" id="good" name="rateP" >
+    <label for="good"> (b) Good </label> 
+    <input type="radio" id="fair" name="rateP">
+    <label for="fair"> (c) meeh I'ts alright </label> 
+    <input type="radio" id="NS" name="rateP" >
+    <label for="NS"> (c) Not Satisfied </label><br>
+
+   <br>  &nbsp; &nbsp; <label  class="mychoice" for="myChoice">
+      <stronger>Choose a number between 1 and 100: is this Professor your Favorite?</stronger> </label> 
+    <br> &nbsp; &nbsp; Very Low <input type="range" name="myChoice" id="myChoice"> Yes! 100%
+</div>
+</form>
+
+<h3> Course Ratings </h3>
+<form>
+<div class="course">
+  <label  class="mychoice" for="myChoice">
+ <b>6.</b> How would you rate the <b> course material?</b> </label> 
+    <br>
+    &nbsp; &nbsp; &nbsp; &nbsp; Extremely Difficult <input type="range" name="myChoice" id="myChoice"> I can handle it Easy! <br>
+ 
+<br> 
+    <b>7.</b> How much did this course meet your <b> expectations?</b> </label> 
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; Extremely low <input type="range" name="myChoice" id="myChoice"> More than I expected! <br>
+
+ <br> <b>8.</b> How would you rate this course <b> (overall)?</b> </label> 
+  <br> &nbsp; &nbsp; &nbsp; &nbsp; Extremely Difficult <input type="range" name="myChoice" id="myChoice"> I can handle it Easy! 
+
+</div>
+</form>
+
+
+
+<h3> General Information </h3>
+<div class="question9">
+<form action="info">
+  <b>9.</b> was the  <b> course outline</b> reviewed/explained at the beginning of your course? </label> <br>
+<label for="q9"> </label>
+<select name="q9" id="q9">
+  <option style="display:none"></option>
+<optgroup label="Are you sure?">
+<option value="Yes!"> Yes!</option> Yes! </option>  
+  <option value="No"> No.</option>
+  <option value="Not sure"> Not Really sure I never attend class hehe </option> 
+
+</optgroup>  
+</select>
+</form>
+
+<form>
+  <br><br>
+<b>10.</b> would you  <b> recommend</b> this course to a friend with the same interests? </label> <br>
+<form action="recommend">
+<label for="q10"> </label>
+<select name="q10" id="q10">
+<optgroup label="would you recomment it?">
+  <option style="display:none">
+    <option value="Yes"> Yes! Highly recommended </option>
+    <option value="No"> Maybe :p </option>
+    <option value="Not sure"> I will never recommend </option>
+
+
+
+
+</optgroup>
+</select>
+</form>
+</div>
+
+
+<h3>Any Other Comments </h3>
+
+ <div class="comments">
+
+  <b>11.</b> What is the <b> best thing </b> about this course? <br> </label> <br>
+  <form action="best_thing_area"> 
+  
+    <textarea id="q11" name="best thing" rows="5" cols="50"></textarea>
+    <br>
+
+  </form>
+ <br> <b>12.</b> How could we <b> improve </b>  this course? <br> </label> <br>
+<form action="improve">
+
+  <textarea id="improvetext" name="1" rows="5" cols="50"></textarea>
+  <br>
+</form>
+
+
+</form>
+<br> <b>12.</b> Other comments/suggestions/complains:<b>  <br> </label> <br>
+<form action="improve">
+
+ <textarea id="improvetext" name="1" rows="5" cols="50"></textarea>
+ <br>
+</form>
+
+
+
+
+
+
+</div>
+
+  <input type="reset" value="Reset">
+  <a href="submit.html" target="_blank"> 
+  <button type = "button">
+    submit
+  </button>
+</a>
+
+
+<h4 class="section1"> Thank you! We pay attention to your feedback!  </h4>
+
+<p class="link"> 
+
+
+
+<a href = "mailto:abc@example.com?subject = Feedback&body = Message">
+ Email: centennialcollege123@yahoo.com  
+</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+<a href="https://www.centennialcollege.ca/?utm_source=hsm&utm_medium=google&gclid=Cj0KCQiAgribBhDkARIsAASA5bvb5j3caoBKO4J3SbVqE-m42DvAPDKEEZ9vCH8YEXZucFkstzqgRkAaAgFUEALw_wcB&gclsrc=aw.ds"> Centennial College Website</a>
+</p>
+
+
+</main>
+
+
+<footer>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<h6> <i> copyright &copy; Fall Semester 2022 Gwenn dela Victoria Assignment#4 November 12,2022 </h6> </i>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+</footer>
+
+</body>
+
+</html>
